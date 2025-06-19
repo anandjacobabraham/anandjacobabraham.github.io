@@ -78,6 +78,5 @@ R. Maiti, B. G. Menon, and A. Abraham (2024). Ensemble empirical mode decomposit
 Dual-channel supply chains sell products through an online channel as well as a traditional retail outlet. This often leads to cannibalization, and a central issue in dual channel supply chain management happens to be *double marginalization*, which refers to the reduction of overall supply chain profits as a result of self-interest-driven price selection by the channels. Centralizing supply chain decisions is a method to mitigate the double marginalization problem. However, the performance of a dual channel supply chain differs vastly in the presence of competition and under different modes of competition (simultaneous pricing, leader-follower pricing, etc.). In our work, we look at how prices and profits get affected by the presence of competition and also how prices and profits vary depending on the structure of the competitive market.
 
 ***Associated publications:***  
-Nair, R. B., Abijith, K. P., Abraham, A., Kumar, K. R., & Sridharan, R. (2022). Prices and profits in centralized dual-channel supply chains under competition. *IFAC-PapersOnLine*, 55(10), 2366–2371. [View](https://www.sciencedirect
-
-
+Nair, R. B., Abijith, K. P., Abraham, A., Kumar, K. R., & Sridharan, R. (2022). Prices and profits in centralized dual-channel supply chains under competition. *IFAC-PapersOnLine*, 55(10), 2366–2371. [View](https://www.sciencedirect.com/science/article/pii/S2405896322020717)
+Nair, R. B., Abraham, A. J., Kumar, K. R., & Sridharan, R. (2024). Optimal pricing decisions of centralized dual-channel supply chains in a duopoly: A study on the influence of competition structure. Sadhana, 49(1), 1-1.[View](https://link.springer.com/article/10.1007/s12046-023-02297-8)
