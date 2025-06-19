@@ -1,19 +1,16 @@
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Tab0')" id="defaultOpen">Home</button>
-  <button class="tablinks" onclick="openTab(event, 'Tab1')">Teaching</button>
-  <button class="tablinks" onclick="openTab(event, 'Tab2')">Research</button>
-  <button class="tablinks" onclick="openTab(event, 'Tab3')">Contact</button>
-</div>
+## Table of Contents
+- [Home](#about-me)
+- [Teaching](#teaching)
+- [Research](#research)
+- [Contact](#contact)
 
-<div id="Tab0" class="tabcontent" style="text-align: justify;">
+---
 
 # About me
 
 I am Anand Jacob Abraham, an Assistant Professor in the Department of Industrial and Systems Engineering at IIT Kharagpur. I completed my BTech in Mechanical Engineering from the University of Calicut, my MTech in Industrial Engineering and Management from the National Institute of Technology Calicut, and my PhD in Management Studies from the Indian Institute of Science Bangalore. My research focuses on resource economics, cooperative game theory, and pricing problems in supply chain management. In 2022, I received the Indian Economics Association medal in recognition of the academic contributions of my PhD work. My research has been published in prestigious journals such as *Mathematical Social Sciences* and *Economics Letters*.
 
-</div>
 
-<div id="Tab1" class="tabcontent" style="text-align: justify;">
 
 # Teaching
 
@@ -36,9 +33,6 @@ I am Anand Jacob Abraham, an Assistant Professor in the Department of Industrial
 
 1. **Operations Research** - Winter (Jan-May) 2020-21  
 
-</div>
-
-<div id="Tab2" class="tabcontent" style="text-align: justify;">
 
 # Research
 
@@ -86,50 +80,4 @@ Dual-channel supply chains sell products through an online channel as well as a 
 ***Associated publications:***  
 Nair, R. B., Abijith, K. P., Abraham, A., Kumar, K. R., & Sridharan, R. (2022). Prices and profits in centralized dual-channel supply chains under competition. *IFAC-PapersOnLine*, 55(10), 2366–2371. [View](https://www.sciencedirect
 
-<!-- Styles -->
-<style>
-.tab {
-  overflow: hidden;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 1em;
-}
-.tab button {
-  background-color: inherit;
-  border: none;
-  cursor: pointer;
-  padding: 10px 16px;
-  font-size: 16px;
-}
-.tab button:hover {
-  background-color: #ddd;
-}
-.tab button.active {
-  background-color: #ccc;
-}
-.tabcontent {
-  display: none;
-  border: 1px solid #ccc;
-  border-top: none;
-  padding: 1em;
-}
-</style>
 
-<!-- JavaScript -->
-<script>
-function openTab(evt, tabName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName('tabcontent');
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = 'none';
-  }
-  tablinks = document.getElementsByClassName('tablinks');
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].classList.remove('active');
-  }
-  document.getElementById(tabName).style.display = 'block';
-  evt.currentTarget.classList.add('active');
-}
-document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('defaultOpen').click();
-});
-</script>
