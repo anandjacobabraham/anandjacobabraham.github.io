@@ -2,6 +2,13 @@
 
 I am Anand Jacob Abraham, an Assistant Professor in the Department of Industrial and Systems Engineering at IIT Kharagpur. I completed my BTech in Mechanical Engineering from the University of Calicut, my MTech in Industrial Engineering and Management from the National Institute of Technology Calicut, and my PhD in Management Studies from the Indian Institute of Science Bangalore. My research focuses on resource economics, cooperative game theory, and pricing problems in supply chain management. In 2022, I received the Indian Economics Association medal in recognition of the academic contributions of my PhD work. My research has been published in prestigious journals such as Mathematical Social Sciences and Economics Letters.
 
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Tab1')" id="defaultOpen">Tab 1</button>
+  <button class="tablinks" onclick="openTab(event, 'Tab2')">Tab 2</button>
+  <button class="tablinks" onclick="openTab(event, 'Tab3')">Tab 3</button>
+</div>
+
+<div id="Tab1" class="tabcontent">
 # Teaching 
 
 ## Courses taught at IIT Kharagpur
@@ -20,7 +27,9 @@ I am Anand Jacob Abraham, an Assistant Professor in the Department of Industrial
    
 ## Courses taught at NIT Calicut
 1. **Operations Research**- Winter (Jan-May) 2020-21
+</div>
 
+<div id="Tab2" class="tabcontent">
 # Research
 
 I am interested in topics of Resource economics, Game theory, Supply chain management, and Applied operations Research. Here is a brief overview of my research activities.
@@ -62,3 +71,63 @@ Dual-channel supply chains sell products through an online channel as well as a 
 ***Associated publications:***  
 Nair, R. B., Abijith, K. P., Abraham, A., Kumar, K. R., & Sridharan, R. (2022). Prices and profits in centralized dual-channel supply chains under competition. IFAC-PapersOnLine, 55(10), 2366–2371.[View](https://www.sciencedirect.com/science/article/pii/S2405896322020717)  
 Nair, R. B., Abraham, A. J., Kumar, K. R., & Sridharan, R. (2024). Optimal pricing decisions of centralized dual-channel supply chains in a duopoly: A study on the influence of competition structure. Sadhana, 49(1), 1-1.[View](https://link.springer.com/article/10.1007/s12046-023-02297-8)
+</div>
+
+</div>
+
+<div id="Tab3" class="tabcontent">
+
+### Content
+
+Contact through email for appointments.
+
+</div>
+
+<style>
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1em;
+}
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 16px;
+  font-size: 16px;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+.tab button.active {
+  background-color: #ccc;
+}
+.tabcontent {
+  display: none;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 1em;
+}
+</style>
+
+<script>
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for(i=0; i<tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for(i=0; i<tablinks.length; i++) {
+    tablinks[i].classList.remove("active");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.classList.add("active");
+}
+
+// Open default tab on page load
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("defaultOpen").click();
+});
+</script>
