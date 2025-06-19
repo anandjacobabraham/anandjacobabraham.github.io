@@ -9,6 +9,7 @@ I am Anand Jacob Abraham, an Assistant Professor in the Department of Industrial
 </div>
 
 <div id="Tab1" class="tabcontent">
+  
 # Teaching 
 
 ## Courses taught at IIT Kharagpur
@@ -27,9 +28,11 @@ I am Anand Jacob Abraham, an Assistant Professor in the Department of Industrial
    
 ## Courses taught at NIT Calicut
 1. **Operations Research**- Winter (Jan-May) 2020-21
+   
 </div>
 
 <div id="Tab2" class="tabcontent">
+  
 # Research
 
 I am interested in topics of Resource economics, Game theory, Supply chain management, and Applied operations Research. Here is a brief overview of my research activities.
@@ -71,7 +74,6 @@ Dual-channel supply chains sell products through an online channel as well as a 
 ***Associated publications:***  
 Nair, R. B., Abijith, K. P., Abraham, A., Kumar, K. R., & Sridharan, R. (2022). Prices and profits in centralized dual-channel supply chains under competition. IFAC-PapersOnLine, 55(10), 2366–2371.[View](https://www.sciencedirect.com/science/article/pii/S2405896322020717)  
 Nair, R. B., Abraham, A. J., Kumar, K. R., & Sridharan, R. (2024). Optimal pricing decisions of centralized dual-channel supply chains in a duopoly: A study on the influence of competition structure. Sadhana, 49(1), 1-1.[View](https://link.springer.com/article/10.1007/s12046-023-02297-8)
-</div>
 
 </div>
 
@@ -79,7 +81,7 @@ Nair, R. B., Abraham, A. J., Kumar, K. R., & Sridharan, R. (2024). Optimal prici
 
 ### Content
 
-Contact through email for appointments.
+Contact me through email for appointments.
 
 </div>
 
@@ -112,6 +114,7 @@ Contact through email for appointments.
 </style>
 
 <script>
+  
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -130,4 +133,5 @@ function openTab(evt, tabName) {
 document.addEventListener("DOMContentLoaded", function() {
   document.getElementById("defaultOpen").click();
 });
+  
 </script>
