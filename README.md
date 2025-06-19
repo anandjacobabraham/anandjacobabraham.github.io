@@ -1,4 +1,4 @@
-## Table of Contents
+
 - [Home](#about-me)
 - [Teaching](#teaching)
 - [Research](#research)
