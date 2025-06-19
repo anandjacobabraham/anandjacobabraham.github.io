@@ -46,7 +46,7 @@ Abraham A., and Ramachandran P. (2020) A solution for the flood cost sharing pro
 ## Water sharing agreements in flood-prone environments
 In the presence of stochastic water flows, water sharing agreements may lose stability. The loss of stability here refers to agents deviating from the terms of the contract during a period of extreme scarcity or floods. Using a dynamic repeated game approach, we investigate the conditions on transferable utility to ensure the stability of water sharing agreements framed in a flood-prone basin. In particular, we investigated agreements with fixed payments as the side-payment scheme and the SUPA method for allocating flood damages. We show that stable agreements (agreements that hold in spite of stochastic water flows) are possible if the discount factor is sufficiently high. Also, such agreements are weakly more unstable than agreements in non-flood-prone settings.
 
-**$Associated publication:***  
+***Associated publication:***  
 Abraham, A., & Ramachandran, P. (2021). Stable agreements with fixed payments on transboundary floodprone rivers. In H. M. Morais D. Fang L. (Ed.), Contemporary Issues in Group Decision and Negotiation (Lecture Notes in Business Information Processing, pp. 99–112). Springer.[View](https://link.springer.com/chapter/10.1007/978-3-030-77208-6_8)
 
 
