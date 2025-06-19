@@ -17,10 +17,10 @@ I am Anand Jacob Abraham, an Assistant Professor in the Department of Industrial
 7. **Operations Research and Analytics Lab**- Autumn 2024-25 (with Prof. A. Sharma)
 
 ### Courses taught at IIM Jammu
-1. Quantitative Methods I- Term 1 2021-22
-2. Quantitative Techniques for Managers- Term 1 (with Prof. Sujit Kr Singh) 
+1. **Quantitative Methods I**- Term 1 2021-22
+2. **Quantitative Techniques for Managers**- Term 1 (with Prof. Sujit Kr Singh) 
 ### Courses taught at NIT Calicut
-1. Operations Research- Winter (Jan-May) 2020-21
+1. **Operations Research**- Winter (Jan-May) 2020-21
 
 ## Research
 
