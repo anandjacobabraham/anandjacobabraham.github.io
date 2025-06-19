@@ -8,9 +8,19 @@ I am Anand Jacob Abraham, an Assistant Professor in the Department of Industrial
 
 ### Courses taught at IIT Kharagpur
 
-### Courses taught at IIM Jammu
+1. **IM31006 Simulation**- Autumn 2022-23,2023-24,2024-25,2025-26
+2. **IM60208 Generalized Linear Models and Applications**- Spring 2022-23,2023-24,2024-25
+3. **IM21204 Operations Research II**- Spring 2024-25
+4. **Work System Design Lab**- Spring 2021-22,2022-23,2023-24,2024-25, Autumn 2025-26
+5. **Simulation Lab**- Spring 2021-22 (with Prof. B.G. Menon) Autumn 2022-23,2023-24,2024-25
+6. **Statistical Learning Lab**- Spring 2022-23,2023-24,2024-25 (with Prof. S. Roychowdhury)
+7. **Operations Research and Analytics Lab**- Autumn 2024-25 (with Prof. A. Sharma)
 
+### Courses taught at IIM Jammu
+1. Quantitative Methods I- Term 1 2021-22
+2. Quantitative Techniques for Managers- Term 1 (with Prof. Sujit Kr Singh) 
 ### Courses taught at NIT Calicut
+1. Operations Research- Winter (Jan-May) 2020-21
 
 ## Research
 
