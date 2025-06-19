@@ -3,7 +3,7 @@
 I am Anand Jacob Abraham, an Assistant Professor in the Department of Industrial and Systems Engineering at IIT Kharagpur. I completed my BTech in Mechanical Engineering from the University of Calicut, my MTech in Industrial Engineering and Management from the National Institute of Technology Calicut, and my PhD in Management Studies from the Indian Institute of Science Bangalore. My research focuses on resource economics, cooperative game theory, and pricing problems in supply chain management. In 2022, I received the Indian Economics Association medal in recognition of the academic contributions of my PhD work. My research has been published in prestigious journals such as Mathematical Social Sciences and Economics Letters.
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Tab1')" id="defaultOpen">Tab 1</button>
+  <button class="tablinks" onclick="openTab(event, 'Tab1')" id="defaultOpen">Teaching</button>
   <button class="tablinks" onclick="openTab(event, 'Tab2')">Tab 2</button>
   <button class="tablinks" onclick="openTab(event, 'Tab3')">Tab 3</button>
 </div>
