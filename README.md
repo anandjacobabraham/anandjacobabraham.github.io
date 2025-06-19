@@ -86,3 +86,50 @@ Dual-channel supply chains sell products through an online channel as well as a 
 ***Associated publications:***  
 Nair, R. B., Abijith, K. P., Abraham, A., Kumar, K. R., & Sridharan, R. (2022). Prices and profits in centralized dual-channel supply chains under competition. *IFAC-PapersOnLine*, 55(10), 2366–2371. [View](https://www.sciencedirect
 
+<!-- Styles -->
+<style>
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1em;
+}
+.tab button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 10px 16px;
+  font-size: 16px;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+.tab button.active {
+  background-color: #ccc;
+}
+.tabcontent {
+  display: none;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 1em;
+}
+</style>
+
+<!-- JavaScript -->
+<script>
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName('tabcontent');
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = 'none';
+  }
+  tablinks = document.getElementsByClassName('tablinks');
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].classList.remove('active');
+  }
+  document.getElementById(tabName).style.display = 'block';
+  evt.currentTarget.classList.add('active');
+}
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('defaultOpen').click();
+});
+</script>
