@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Anand Jacob Abraham</title>
+  <title>My Personal Website</title>
   <style>
     * {
       box-sizing: border-box;
@@ -11,6 +11,9 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
+    }
+
+    .container {
       display: flex;
       min-height: 100vh;
     }
@@ -37,17 +40,28 @@
       color: white;
       text-decoration: none;
       font-size: 16px;
+      transition: background-color 0.3s;
     }
 
-    .sidebar a:hover, .sidebar a.active {
+    .sidebar a:hover,
+    .sidebar a.active {
       background-color: #34495e;
     }
 
-    /* Main content */
+    /* Main Content */
     .main-content {
       margin-left: 250px;
       padding: 40px;
       flex-grow: 1;
+    }
+
+    .main-title {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      color: #2c3e50;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
     }
 
     .tab-content {
@@ -78,7 +92,9 @@
 </head>
 <body>
 
-  <!-- Sidebar -->
+<div class="container">
+
+  <!-- Sidebar Navigation -->
   <div class="sidebar">
     <h2>Navigation</h2>
     <a href="#" class="tablink active" onclick="openTab(event, 'about')">About Me</a>
@@ -87,76 +103,37 @@
     <a href="#" class="tablink" onclick="openTab(event, 'contact')">Contact</a>
   </div>
 
-  <!-- Main Content -->
+  <!-- Main Content Area -->
   <div class="main-content">
+    <div class="main-title">My Personal Website</div>
+
     <!-- About Me -->
     <div id="about" class="tab-content active">
       <h1>About Me</h1>
-      <p>I am Anand Jacob Abraham, an Assistant Professor in the Department of Industrial and Systems Engineering at IIT Kharagpur. I completed my BTech in Mechanical Engineering from the University of Calicut, my MTech in Industrial Engineering and Management from the National Institute of Technology Calicut, and my PhD in Management Studies from the Indian Institute of Science Bangalore. My research focuses on resource economics, cooperative game theory, and pricing problems in supply chain management. In 2022, I received the Indian Economics Association medal in recognition of the academic contributions of my PhD work. My research has been published in prestigious journals such as <em>Mathematical Social Sciences</em> and <em>Economics Letters</em>.</p>
+      <p>I am Anand Jacob Abraham, an Assistant Professor in the Department of Industrial and Systems Engineering at IIT Kharagpur...</p>
     </div>
 
     <!-- Teaching -->
     <div id="teaching" class="tab-content">
       <h1>Teaching</h1>
-
-      <h2>Courses taught at IIT Kharagpur</h2>
       <ul>
         <li><strong>IM31006 Simulation</strong> – Autumn 2022–2026</li>
         <li><strong>IM60208 Generalized Linear Models and Applications</strong> – Spring 2022–2025</li>
         <li><strong>IM21204 Operations Research II</strong> – Spring 2024-25</li>
-        <li><strong>Work System Design Lab</strong> – Spring 2021–2025, Autumn 2025-26</li>
-        <li><strong>Simulation Lab</strong> – Spring 2021-22 (with Prof. B.G. Menon), Autumn 2022–2025</li>
-        <li><strong>Statistical Learning Lab</strong> – Spring 2022–2025 (with Prof. S. Roychowdhury)</li>
-        <li><strong>Operations Research and Analytics Lab</strong> – Autumn 2024-25 (with Prof. A. Sharma)</li>
-      </ul>
-
-      <h2>Courses taught at IIM Jammu</h2>
-      <ul>
-        <li><strong>Quantitative Methods I</strong> – Term 1 2021-22</li>
-        <li><strong>Quantitative Techniques for Managers</strong> – Term 1 (with Prof. Sujit Kr Singh)</li>
-      </ul>
-
-      <h2>Courses taught at NIT Calicut</h2>
-      <ul>
-        <li><strong>Operations Research</strong> – Winter (Jan–May) 2020-21</li>
+        <!-- Add more if needed -->
       </ul>
     </div>
 
     <!-- Research -->
     <div id="research" class="tab-content">
       <h1>Research</h1>
-      <p>I am interested in topics of Resource economics, Game theory, Supply chain management, and Applied operations Research.</p>
-
       <h2>River sharing and pollution</h2>
-      <p>How pollution affects cooperative water sharing. <br>
-        <a class="publication-link" href="https://link.springer.com/chapter/10.1007/978-3-030-21711-2_12" target="_blank">View publication</a>
-      </p>
-
-      <h2>Bilateral river water markets and dams</h2>
-      <p>On artificial scarcity due to dam ownership. <br>
-        <a class="publication-link" href="https://www.sciencedirect.com/science/article/pii/S0165489620300949" target="_blank">View publication</a>
-      </p>
+      <p>How pollution affects water trade and cooperation. <a href="https://link.springer.com/chapter/10.1007/978-3-030-21711-2_12" class="publication-link" target="_blank">View</a></p>
 
       <h2>Flood cost sharing</h2>
-      <p>Proposes the SUPA rule for allocating flood damages. <br>
-        <a class="publication-link" href="https://www.sciencedirect.com/science/article/pii/S0165176520300495" target="_blank">View publication</a>
-      </p>
+      <p>Fair division of flood damages using cooperative game theory. <a href="https://www.sciencedirect.com/science/article/pii/S0165176520300495" class="publication-link" target="_blank">View</a></p>
 
-      <h2>Water sharing agreements in flood-prone environments</h2>
-      <p>Dynamic game models for agreement stability. <br>
-        <a class="publication-link" href="https://link.springer.com/chapter/10.1007/978-3-030-77208-6_8" target="_blank">View publication</a>
-      </p>
-
-      <h2>Availability forecasting</h2>
-      <p>Machine learning for streamflow forecasting. <br>
-        <a class="publication-link" href="https://www.sciencedirect.com/science/article/pii/S0957417424014179" target="_blank">View publication</a>
-      </p>
-
-      <h2>Dual channel supply chain price competition</h2>
-      <p>Impacts of market structure on pricing. <br>
-        <a class="publication-link" href="https://www.sciencedirect.com/science/article/pii/S2405896322020717" target="_blank">IFAC 2022</a><br>
-        <a class="publication-link" href="https://link.springer.com/article/10.1007/s12046-023-02297-8" target="_blank">Sadhana 2024</a>
-      </p>
+      <!-- Add more research summaries and links -->
     </div>
 
     <!-- Contact -->
@@ -166,22 +143,34 @@
       <p>Department of Industrial and Systems Engineering,<br>IIT Kharagpur, India</p>
     </div>
   </div>
+</div>
 
-  <script>
-    function openTab(evt, tabName) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tab-content");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].classList.remove("active");
-      }
-      tablinks = document.getElementsByClassName("tablink");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].classList.remove("active");
-      }
-      document.getElementById(tabName).classList.add("active");
-      evt.currentTarget.classList.add("active");
+<!-- JavaScript to handle tab switching -->
+<script>
+  function openTab(evt, tabName) {
+    const tabContents = document.getElementsByClassName("tab-content");
+    const tabLinks = document.getElementsByClassName("tablink");
+
+    // Hide all tab contents
+    for (let i = 0; i < tabContents.length; i++) {
+      tabContents[i].classList.remove("active");
     }
-  </script>
+
+    // Remove "active" class from all links
+    for (let i = 0; i < tabLinks.length; i++) {
+      tabLinks[i].classList.remove("active");
+    }
+
+    // Show selected tab and highlight the link
+    document.getElementById(tabName).classList.add("active");
+    evt.currentTarget.classList.add("active");
+  }
+
+  // Optionally load About tab by default (redundant here since About tab already has .active class)
+  document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("about").classList.add("active");
+  });
+</script>
 
 </body>
 </html>
