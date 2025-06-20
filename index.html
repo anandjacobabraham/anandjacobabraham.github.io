@@ -37,7 +37,6 @@
     header h1 {
       font-size: 1.5rem;
       margin: 0;
-      color: var(--text-color);
     }
 
     nav a {
@@ -55,8 +54,35 @@
 
     main {
       max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 2rem;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .banner {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-bottom: 1px solid var(--border-color);
+      margin-bottom: 2rem;
+    }
+
+    .profile-section {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .profile-photo {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+    }
+
+    .profile-text {
+      flex: 1;
     }
 
     .tab-content {
@@ -83,6 +109,7 @@
 </head>
 <body>
 
+  <!-- Header -->
   <header>
     <h1>My Personal Website</h1>
     <nav>
@@ -93,11 +120,21 @@
     </nav>
   </header>
 
+  <!-- Banner Image -->
+  <img src="banner.jpg" alt="Banner" class="banner">
+
+  <!-- Main Content -->
   <main>
+
     <!-- About Me -->
     <div id="about" class="tab-content active">
-      <h2>About Me</h2>
-      <p>I am Anand Jacob Abraham, an Assistant Professor in the Department of Industrial and Systems Engineering at IIT Kharagpur. I completed my BTech in Mechanical Engineering from the University of Calicut, my MTech in Industrial Engineering and Management from the National Institute of Technology Calicut, and my PhD in Management Studies from the Indian Institute of Science Bangalore. My research focuses on resource economics, cooperative game theory, and pricing problems in supply chain management. In 2022, I received the Indian Economics Association medal in recognition of the academic contributions of my PhD work. My research has been published in prestigious journals such as <em>Mathematical Social Sciences</em> and <em>Economics Letters</em>.</p>
+      <div class="profile-section">
+        <img src="photo.jpg" alt="My Photo" class="profile-photo">
+        <div class="profile-text">
+          <h2>About Me</h2>
+          <p>I am Anand Jacob Abraham, an Assistant Professor in the Department of Industrial and Systems Engineering at IIT Kharagpur. I completed my BTech in Mechanical Engineering from the University of Calicut, my MTech in Industrial Engineering and Management from the National Institute of Technology Calicut, and my PhD in Management Studies from the Indian Institute of Science Bangalore. My research focuses on resource economics, cooperative game theory, and pricing problems in supply chain management. In 2022, I received the Indian Economics Association medal in recognition of the academic contributions of my PhD work. My research has been published in prestigious journals such as <em>Mathematical Social Sciences</em> and <em>Economics Letters</em>.</p>
+        </div>
+      </div>
     </div>
 
     <!-- Teaching -->
@@ -118,7 +155,7 @@
     <div id="research" class="tab-content">
       <h2>Research</h2>
       <h3>River sharing and pollution</h3>
-      <p>How pollution affects cooperative water sharing. <a href="https://link.springer.com/chapter/10.1007/978-3-030-21711-2_12" class="publication-link" target="_blank">View publication</a></p>
+      <p>How pollution affects water trade and cooperation. <a href="https://link.springer.com/chapter/10.1007/978-3-030-21711-2_12" class="publication-link" target="_blank">View publication</a></p>
 
       <h3>Bilateral river water markets and dams</h3>
       <p>On artificial scarcity due to dam ownership. <a href="https://www.sciencedirect.com/science/article/pii/S0165489620300949" class="publication-link" target="_blank">View publication</a></p>
@@ -133,8 +170,8 @@
       <p>ML and EEMD for river flow forecasting. <a href="https://www.sciencedirect.com/science/article/pii/S0957417424014179" class="publication-link" target="_blank">View publication</a></p>
 
       <h3>Dual channel supply chain</h3>
-      <p>Competition and pricing strategies. 
-        <a href="https://www.sciencedirect.com/science/article/pii/S2405896322020717" class="publication-link" target="_blank">IFAC 2022</a>, 
+      <p>Competition and pricing strategies.
+        <a href="https://www.sciencedirect.com/science/article/pii/S2405896322020717" class="publication-link" target="_blank">IFAC 2022</a>,
         <a href="https://link.springer.com/article/10.1007/s12046-023-02297-8" class="publication-link" target="_blank">Sadhana 2024</a>
       </p>
     </div>
@@ -142,11 +179,13 @@
     <!-- Contact -->
     <div id="contact" class="tab-content">
       <h2>Contact</h2>
-      <p>Email: <em>[Insert your email here]</em></p>
+      <p>Email: <em>[anandabraham[at]iem.iitkgp.ac.in]</em></p>
       <p>Department of Industrial and Systems Engineering,<br>IIT Kharagpur, India</p>
     </div>
+
   </main>
 
+  <!-- Tab Switching Script -->
   <script>
     function openTab(evt, tabName) {
       const tabContents = document.getElementsByClassName("tab-content");
