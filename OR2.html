@@ -2,27 +2,262 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>IM60208 Generalized Linear Models and Applications</title>
+  <title>IM21204 Operations Research II – Course Outline</title>
   <style>
     body {
       font-family: system-ui, sans-serif;
-      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 900px;
       line-height: 1.6;
+      color: #111;
+      background-color: #ffffff;
     }
+
+    h1, h2, h3 {
+      color: #254b8b;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+
+    th, td {
+      padding: 0.75rem;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+
     a {
       color: #3366cc;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
-  <h1>IM21204 Operations Research-II</h1>
-  <p>This page contains details about the Operations Research-II course.</p>
-  <p><strong>Semesters Taught:</strong> Spring 2022–23, 2023–24, 2024–25</p>
-  <p><a href="NLP_Mod1.pdf" target="_blank">Unconstrained optimization</a>></p>
-  <a href="index.html">← Back to Main Page</a>
+
+  <h1>IM21204 – Operations Research II</h1>
+  <p>
+    <strong>Credits:</strong> 4<br>
+    <strong>Duration:</strong> One Semester (12–14 weeks)<br>
+    <strong>Level:</strong> Undergraduate (Core)
+  </p>
+
+  <p>
+    This course builds on the foundations of Operations Research I and focuses on
+    dynamic and stochastic optimization techniques. The emphasis is on modeling,
+    analytical solution methods, and interpretation of results for decision-making
+    under uncertainty and strategic interaction.
+  </p>
+
+  <h2>Course Objectives</h2>
+  <p>To enable students to:</p>
+  <ul>
+    <li>Formulate and solve basic nonlinear optimization problems.</li>
+    <li>Understand and apply dynamic programming principles.</li>
+    <li>Analyze stochastic systems using Markov chains and Markov decision processes.</li>
+    <li>Develop strategic reasoning using elementary game-theoretic models (optional).</li>
+  </ul>
+
+  <h2>Weekly Course Outline</h2>
+  <table>
+    <tr>
+      <th>Week</th>
+      <th>Topics</th>
+      <th>No. of Lectures</th>
+      <th>Assignments / Materials</th>
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td>
+        Review of Optimization Concepts<br>
+        Convexity, Optimality Conditions
+      </td>
+      <td>3</td>
+      <td>Reading: Bazaraa et al., Ch. 1–2</td>
+    </tr>
+
+    <tr>
+      <td>2</td>
+      <td>
+        Unconstrained Nonlinear Programming<br>
+        First and Second Order Conditions
+      </td>
+      <td>4</td>
+      <td>Problem Set 1</td>
+    </tr>
+
+    <tr>
+      <td>3</td>
+      <td>
+        Constrained Nonlinear Programming<br>
+        Lagrange Multipliers, KKT Conditions
+      </td>
+      <td>4</td>
+      <td>Numerical examples</td>
+    </tr>
+
+    <tr>
+      <td>4</td>
+      <td>
+        Introduction to Dynamic Programming<br>
+        Principle of Optimality
+      </td>
+      <td>3</td>
+      <td>Reading: Bertsekas, Ch. 1</td>
+    </tr>
+
+    <tr>
+      <td>5</td>
+      <td>
+        Deterministic Dynamic Programming<br>
+        Resource Allocation, Shortest Path
+      </td>
+      <td>4</td>
+      <td>Problem Set 2</td>
+    </tr>
+
+    <tr>
+      <td>6</td>
+      <td>
+        Dynamic Programming Applications<br>
+        Inventory and Replacement Models
+      </td>
+      <td>3</td>
+      <td>Test 1</td>
+    </tr>
+
+    <tr>
+      <td>7</td>
+      <td>
+        Stochastic Processes Review<br>
+        Discrete-Time Markov Chains
+      </td>
+      <td>3</td>
+      <td>Reading: Ross, Ch. 4</td>
+    </tr>
+
+    <tr>
+      <td>8</td>
+      <td>
+        Markov Chains<br>
+        Classification, Steady-State Analysis
+      </td>
+      <td>4</td>
+      <td>Problem Set 3</td>
+    </tr>
+
+    <tr>
+      <td>9</td>
+      <td>
+        Markov Decision Processes (MDPs)<br>
+        Policy Evaluation and Optimization
+      </td>
+      <td>4</td>
+      <td>Numerical examples</td>
+    </tr>
+
+    <tr>
+      <td>Bonus</td>
+      <td>
+        Infinite Horizon MDPs<br>
+        Discounted and Average Reward Criteria
+      </td>
+      <td>2</td>
+      <td>Reading notes</td>
+    </tr>
+
+    <tr>
+      <td>Optional</td>
+      <td>
+        Game Theory Basics<br>
+        Static Games, Nash Equilibrium
+      </td>
+      <td>3</td>
+      <td>Ref: Osborne & Rubinstein</td>
+    </tr>
+
+    <tr>
+      <td>Optional</td>
+      <td>
+        Dynamic and Evolutionary Games<br>
+        Repeated Games, Replicator Dynamics
+      </td>
+      <td>3</td>
+      <td>Ref: L.C. Thomas</td>
+    </tr>
+  </table>
+
+  <h2>Textbooks and References</h2>
+  <ul>
+    <li>
+      <strong>Primary:</strong>
+      Bazaraa, Sherali & Shetty –
+      <em>Nonlinear Programming: Theory and Algorithms</em>
+    </li>
+    <li>
+      Bertsekas –
+      <em>Dynamic Programming and Optimal Control</em>, Vol. 1
+    </li>
+    <li>
+      Ross –
+      <em>Introduction to Probability Models</em>
+    </li>
+    <li>
+      Osborne & Rubinstein –
+      <em>A Course in Game Theory</em> (Optional)
+    </li>
+  </ul>
+
+  <h2>Assessment Scheme</h2>
+  <table>
+    <tr>
+      <th>Component</th>
+      <th>Weight</th>
+    </tr>
+    <tr>
+      <td>Continuous Evaluation (Assignments, Quiz)</td>
+      <td>40% (20+20)</td>
+    </tr>
+    <tr>
+      <td>Midterm Exam</td>
+      <td>30%</td>
+    </tr>
+    <tr>
+      <td>Final Exam</td>
+      <td>30%</td>
+    </tr>
+  </table>
+  <h2>Course Materials</h2>
+  <p>
+    Lecture notes, problem sets, etc. are provided. Check the course moodle page for more recent updates.
+  </p>
+
+  <ul>
+    <li>
+      <strong>Lecture Notes:</strong>
+      <a href="NLP_Mod1">Basic OPtimization and Unconstrained OPtimization </a>
+    </li>
+  </ul>
+  <a href="index.html" class="back-link">← Back to Main Page</a>
+
 </body>
 </html>
